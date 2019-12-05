@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="midterm:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/midterm_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="final/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="final" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.18.RELEASE (2)" />
+          <element id="library" level="project" name="com.mchange:c3p0:0.9.5.4" />
+          <element id="library" level="project" name="commons-fileupload:commons-fileupload:1.4" />
+          <element id="library" level="project" name="jstl:jstl:1.2" />
+          <element id="library" level="project" name="org.hibernate.validator:hibernate-validator:6.1.0.Final" />
+          <element id="library" level="project" name="com.fasterxml.jackson.core:jackson-databind:2.10.1" />
+          <element id="library" level="project" name="com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.10.1" />
+          <element id="library" level="project" name="javax.annotation:javax.annotation-api:1.3.2" />
+          <element id="library" level="project" name="Hibernate 5.4.9-5.4.9" />
+          <element id="library" level="project" name="Spring MVC-4.3.18.RELEASE (3)" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/derby.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/derbyshared.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/derbytools.jar" />
+        </element>
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+        <element id="library" level="project" name="Spring MVC-4.3.18.RELEASE" />
+        <element id="directory" name="guildbank">
+          <element id="dir-copy" path="$PROJECT_DIR$/lib/guildbank" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
